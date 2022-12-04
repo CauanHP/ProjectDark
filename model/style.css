@@ -120,7 +120,7 @@ aside > p {
 }
 
 nav {
-    min-width: 250px;
+    margin: auto;
     background-color: rgba(1, 0, 10, 0.616);
     width: 315px;
     padding-top: 4px;
