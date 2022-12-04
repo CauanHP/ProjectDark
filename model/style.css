@@ -11,9 +11,9 @@
 }
 
 :root {
-    --fontedestaque: 'Roboto Slab', serif;
-    --fonteprincipal: 'Shadows Into Light', cursive;
-    --fontemenu: 'pirata', cursive;
+    --fonte-destaque: 'Nerko One', cursive;
+    --fonte-principal: 'Patrick Hand', cursive;
+    --fonteparalela: 'pirata', cursive;
 }
 
 * {
@@ -45,24 +45,26 @@ header h1 {
     font-family: var(--fontedestaque);
     padding-top: 30px;
     text-align: center;
+    font-style: italic;
 }
 
 header p {
     padding-bottom: 15px;
     text-align: center;
+    font-size: 1.3em;
+    font-weight: bolder;
 }
 
 header a {
-    color: white;
+    color: rgb(200, 255, 0);
     text-decoration: none;
-    font-family: var(--fontemenu);
-    font-weight: bolder;
+    font-weight: bold;
     padding: 5px;
 }
 
 header a:hover {
-    color: rgb(0, 3, 187);
-    border-left: 4px solid rgb(0, 55, 128);
+    color: rgb(53, 187, 0);
+    border-left: 4px solid rgb(0, 128, 53);
     background-color: rgba(128, 128, 128, 0.418);
     padding: 6px;
     transition-duration: 0.4s;
@@ -71,7 +73,6 @@ header a:hover {
 main {
     line-height: 1.6em;
     text-justify: auto;
-    text-indent: 30px;
     margin: auto;
     max-width: 800px;
     text-align: center;
@@ -84,7 +85,7 @@ main h1 {
 }
 
 aside > h1 {
-    color: rgb(241, 81, 255);
+    color: rgb(255, 91, 91);
     margin: auto;
     width: 220px;
     font-family: var(--fonteprincipal);
@@ -97,6 +98,12 @@ aside > h2 {
     width: 370px;
     color: rgb(255, 91, 91);
     background-color: rgba(0, 0, 0, 0.39)
+}
+
+aside > p {
+    text-align: justify;
+    padding: 10px;
+    text-indent: 20px;
 }
 
 .video {
