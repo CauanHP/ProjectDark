@@ -38,7 +38,7 @@ body {
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.671);
+    background-color: rgba(0, 0, 0, 0.726);
 }
 
 header h1 {
@@ -71,6 +71,8 @@ header a:hover {
 }
 
 main {
+    position: relative;
+    top: 20px;
     line-height: 1.6em;
     text-justify: auto;
     margin: auto;
@@ -119,11 +121,17 @@ aside > p {
     left: 5%;
 }
 
-nav {
+nav.spacebar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
     text-align: justify;
-    margin: auto;
-    background-color: rgba(1, 0, 10, 0.616);
     width: 315px;
+    height: 20px;
+    background: #3d3d3db9;
+    border: 2px solid black;
+    background-size: cover;
     padding-top: 4px;
     padding-bottom: 4px;
     margin-bottom: 10px;
